@@ -1,0 +1,118 @@
+*, html, body{
+    margin: 0;
+    padding: 0;
+}
+
+.fcontainer {
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    background-color: lightgray;
+    display: block;
+    background-color: tomato;
+}
+
+.wrapper {
+    height: 40px;
+    display: flex;
+    background-color: black;
+    padding: 20px;
+    font-size: 20px;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 5px 8px 0 rgb(0, 0, 0, 0.5);
+    flex-direction: row;
+}
+
+.brand {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+}
+
+.firstname {
+    color: white;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.lastname {
+    color: crimson;
+    padding-left: 5px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.navbar {
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.navbar > li {
+    padding: 15px;
+    list-style-type: none;
+    
+    
+}
+
+.navbar > li > a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.navbar > li > a:hover {
+    color: crimson;
+    transition: all .3s ease-in-out;
+}
+
+.navbar > li >img {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.navbar > li > img:hover {
+    height: 65px;
+    width: 65px;
+    border-radius: 15px;
+    transition: all .3s ease-in-out;
+}
+
+.aktive {
+    background-color:crimson;
+    padding: 10px;
+}
+
+.aktive:hover {
+    color: white !important;
+}
+
+.content {
+    text-decoration: none;
+    color: black;
+    margin:10px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.content > div > button > a{
+    text-decoration: none;
+    color: black;
+  
+}
+
+.content > div > button > a:hover{
+    color: crimson;
+}
+
+
+@media screen and (max-width: 476px){
+    .fcontainer{
+        
+    }
+}
